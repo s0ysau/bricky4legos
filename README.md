@@ -1,6 +1,14 @@
 <h1>Get Your Brick On</h1>
 <p>The purpose of this site is to rate and review Lego sets by using CRUD to create, read, update and delete Lego sets and review posts</p>
 
+<h1>UPDATES:</h1>
+2/27/2023: Work has been done to redevelop this site using React. 
+
+</br>
+</br>
+</br>
+
+
 <h2>Wireframe and Current Pages</h2>
 <h3>Lego Set Page and Home page</h3>
 
