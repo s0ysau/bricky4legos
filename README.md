@@ -2,7 +2,7 @@
 <p>The purpose of this site is to rate and review Lego sets by using CRUD to create, read, update and delete Lego sets and review posts</p>
 
 <h1>UPDATES:</h1>
-2/27/2023: Work has been done to redevelop this site using React. 
+2/27/2023: Work has been done to redevelop this site using MERN Stack. 
 
 </br>
 </br>

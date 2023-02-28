@@ -1,5 +1,6 @@
 require('dotenv').config()
 const express = require('express')
+const path = require('path')
 const PORT = process.env.PORT || 8080
 
 
@@ -12,6 +13,7 @@ app.use((req, res, next) => {
   res.locals.data = {}
   next()
 })
+
 
 app.get('/api/test', (req, res) => {
   res.json({'eureka': 'you have found it'})
