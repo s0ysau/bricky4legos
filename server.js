@@ -19,6 +19,8 @@ app.get('/api/test', (req, res) => {
   res.json({'eureka': 'you have found it'})
 })
 
+app.get('/profile', require())
+
 app.listen(PORT, () => {
   console.log(`Getting Bricky for Legos in ${PORT}`)
 })
