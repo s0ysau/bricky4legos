@@ -3,17 +3,19 @@ import NavBar from "../../components/NavBar/NavBar"
 import Footer from "../../components/Footer/Footer"
 import Themes from "../Themes"
 import Set from "../Set"
+import Theme2 from "../Theme2"
 
 
-export default function MainPage () {
+export default function Home () {
 
 
   return(
-    <main className="mainPage">
+    <main className="Home">
       <NavBar />
       <h1>Main Page</h1>
-      <Themes />
-      {/* <Set /> */}
+      {/* <Theme2 /> */}
+      {/* <Themes /> */}
+      <Set />
       <Footer />
     </main>
   )

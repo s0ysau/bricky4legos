@@ -1,4 +1,4 @@
-import MainPage from '../MainPage/MainPage';
+import Home from '../Home/Home';
 import './App.css';
 
 export default function App() {
@@ -6,7 +6,7 @@ export default function App() {
 
   return (
     <main className="App">
-      <MainPage />
+      <Home />
     </main>
   );
 }

@@ -7,7 +7,7 @@ export default function Set () {
 
   const getLegoSets = async () => {
     try {
-    const response = await fetch (`https://rebrickable.com/api/v3/lego/sets/?key=0ee20b8b38592fc91ada21d59a4c15b3`, {
+    const response = await fetch (`https://rebrickable.com/api/v3/lego/sets/?page_size=10`, {
       method: 'GET',
       header: {
         'Accept': 'application/json',
