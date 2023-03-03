@@ -11,8 +11,8 @@ export default function NavBar (){
         <Search />
         <Link path=''>HOME</Link>
         <Link path='/set'>SET</Link>
-        <Link href='https://www.lego.com/en-us'>LEGO.COM</Link>
-        <Link path='/profile' element={<Profile/>}>PROFILE</Link>
+        <Link to='https://www.lego.com/en-us'>LEGO.COM</Link>
+        <Link to='/profile' element={<Profile/>}>PROFILE</Link>
         <Link path='/logout'>LOG OUT</Link>
     </section>
   )

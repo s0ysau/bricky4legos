@@ -1,8 +1,8 @@
 
 export default function Search () {
   return (
-    <section>
-      <input type='search'/>
-    </section>
+    <form>
+      <input className="searchBar" type="text" placeholder="Search"/>
+    </form>
   )
 }
