@@ -4,7 +4,7 @@ export default async function sendRequest (url, method='GET', payload = null) {
   const options = { method }
   if (payload) {
     options.header = { 'Content-Type': 'appplication/json' }
-    options.body = json.stringify(payload)
+    options.body = JSON.stringify(payload)
   }
   const token = getToken()
   if (token) {
