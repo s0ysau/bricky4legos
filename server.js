@@ -8,7 +8,6 @@ const PORT = process.env.PORT || 8080
 
 const app = express()
 
-
 app.use(express.json())
 app.use((req, res, next) => {
   res.locals.data = {}
@@ -18,7 +17,7 @@ app.use((req, res, next) => {
 app.use(logger('dev'))
 app.use(require('./config/checkToken'))
 
-app.get('/profile', require('./routes/profile'))
+app.get('/api/profile', require('./routes/api/profile'))
 
 app.get('/api/test', (req, res) => {
   res.json({'eureka': 'you have found it'})
@@ -28,3 +27,4 @@ app.get('/api/test', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Getting Bricky for Legos in ${PORT}`)
 })
+

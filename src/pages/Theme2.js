@@ -9,9 +9,7 @@ export default function Theme2 () {
       const response = await fetch (`https://www.brickset.com/api/v3.asmx/getThemes?apiKey=3-1zW4-35oj-S6ryU` , {
         method: 'GET', 
         header: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-          'Content-Length': '5',
-          'apiKey': '3-1zW4-35oj-S6ryU'
+          'Content-Type': 'application/x-www-form-urlencoded'
         }
       })
       const data = await response.json()

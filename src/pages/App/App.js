@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import Footer from '../../components/Footer/Footer';
 import NavBar from '../../components/NavBar/NavBar';
-import Home from '../Home/Home';
 import AuthPage from '../AuthPage/AuthPage'
+import LandingPg from '../LandingPg/LandingPg';
 import './App.css';
 
 export default function App() {
@@ -14,7 +14,7 @@ export default function App() {
         { user ? 
         <>
           <NavBar user={user} setUser={setUser} />
-          <Home />
+          <LandingPg />
           <Footer />
         </>
           :

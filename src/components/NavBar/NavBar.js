@@ -11,9 +11,10 @@ export default function NavBar ({user, setUser}){
     <section className="NavBarContainer">
       <Search />
       <Link path=''>HOME</Link>
-      <Link path='/set'>SET</Link>
+      <Link to='/wishlist'>WISHLIST</Link>
+      <Link to='/cart'>CART</Link>
       <Link to='https://www.lego.com/en-us'>LEGO.COM</Link>
-      <Link to='/profile' element={<Profile/>}>PROFILE</Link>
+      <Link to='/profile' element={<Profile user={user} setUser={setUser}/>}>PROFILE</Link>
       <LogOut user={user} setUser={setUser}/>
     </section>
   )

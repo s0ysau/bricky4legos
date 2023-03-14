@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const { dataCtrl, apiCtrl } = require('../controllers/profile')
+const { dataCtrl, apiCtrl } = require('../../controllers/profile')
 
 // index 
 router.get('/', dataCtrl.index, apiCtrl.index)
