@@ -54,8 +54,13 @@ export default function Set () {
     :
       <h1>Nothing to show</h1>
     }
-      <PrevBtn decreaseSize={getLegoSets} pageNm={page}/>
-      <NextBtn increaseSize={getLegoSets}/>
+      <PrevBtn 
+      decreaseSize={getLegoSets} 
+      pageNm={page}
+      />
+      <NextBtn 
+      increaseSize={getLegoSets}
+      />
     </main>
   )
 }
